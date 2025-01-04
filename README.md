@@ -10,12 +10,16 @@ A Python script to process videos and manage audio-related operations.
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+   ```  
+2. Add desired words to mute to file:
+   ```bash
+   Add words to the words.txt file
    ```
-2. Install the required dependencies:
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the script:
+4. Run the script:
    ```bash
    python video-mute.py
    ```
