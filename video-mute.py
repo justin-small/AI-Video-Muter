@@ -271,8 +271,8 @@ class Worker(QThread):
         original_audio = AudioSegment.from_file(audio_path, format="wav")
 
         for start_time, end_time in segments:
-            start_ms = int(start_time * 900)
-            end_ms = int(end_time * 900)
+            start_ms = int(start_time * 1000)
+            end_ms = int(end_time * 1000)
             segment_to_mute = original_audio[start_ms:end_ms].apply_gain(-100.0)
             original_audio = (
                 original_audio[:start_ms] + segment_to_mute + original_audio[end_ms:]
