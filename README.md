@@ -33,6 +33,7 @@ A Python script to process videos and manage audio-related operations.
 - Add support for customized mute time intervals.
 - Integrate GUI for device selection used by `whisper_mps`.
 - Extend compatibility for platforms beyond Metal (MPS).
+- Add alternative to FFMPEG that supports MPS.
 
 ## Credits
 This project uses the following open-source packages:
