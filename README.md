@@ -32,7 +32,7 @@ A Python script to process videos and manage audio-related operations.
 
 ## Credits
 This project uses the following open-source packages:
-- [`whisper_mps`](https://github.com/<whisper-mps-link>) for transcription functionality.
+- [`whisper_mps`](https://github.com/AtomGradient/whisper-mps) for transcription functionality.
 - Any additional packages included in `requirements.txt`.
 
 ## License
